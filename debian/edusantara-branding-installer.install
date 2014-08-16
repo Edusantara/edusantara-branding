@@ -1,0 +1,5 @@
+installer/edusantara-installer.png usr/share/icons
+installer/edusantara.png usr/lib/edusantara-installer/system
+installer/logo.png usr/lib/edusantara-installer/system
+installer/edusantara-installer.desktop usr/share/applications
+installer/index.html usr/lib/edusantara-installer/system

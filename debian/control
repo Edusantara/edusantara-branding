@@ -1,0 +1,12 @@
+Source: edusantara-branding
+Priority: optional
+Section: gnome
+Maintainer: BlankOn Developers <BlankOn-Dev@googlegroups.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper, cdbs, coreutils
+
+Package: edusantara-branding-blankon-installer
+Architecture: all
+Depends: ${shlibs:Depends}, blankon-installer
+Description: Rebranding BlankOn Installer
+	Rebranding BlankOn Installer to Edusantara Installer new distro
