@@ -3,13 +3,13 @@ set -e
 
 case "$1" in
   configure)
-  if [ -f /usr/lib/edusantara-installer/system/index.html ]; then
-    dpkg-divert --add --local --divert /usr/lib/edusantara-installer/system/index.html.divert --rename /usr/lib/edusantara-installer/system/index.html
-    cp -a /usr/lib/edusantara-installer/system/index-eduantara.html /usr/lib/edusantara-installer/system/index.html
+  if [ -f /usr/lib/blankon-installer/system/index.html ]; then
+    dpkg-divert --add --local --divert /usr/lib/blankon-installer/system/index.html.divert --rename /usr/lib/blankon-installer/system/index.html
+    cp -a /usr/lib/blankon-installer/system/index-eduantara.html /usr/lib/blankon-installer/system/index.html
   fi
-  if [ -f /usr/lib/edusantara-installer/system/logo.png ]; then
-    dpkg-divert --add --local --divert /usr/lib/edusantara-installer/system/logo.png.divert --rename /usr/lib/edusantara-installer/system/logo.png
-    cp -a /usr/lib/edusantara-installer/system/logo-edusantara.png /usr/lib/edusantara-installer/system/logo.png
+  if [ -f /usr/lib/blankon-installer/system/logo.png ]; then
+    dpkg-divert --add --local --divert /usr/lib/blankon-installer/system/logo.png.divert --rename /usr/lib/blankon-installer/system/logo.png
+    cp -a /usr/lib/blankon-installer/system/logo-edusantara.png /usr/lib/blankon-installer/system/logo.png
   fi
   if [ -f /usr/share/applications/blankon-installer.desktop ]; then
     dpkg-divert --add --local --divert /usr/share/applications/blankon-installer.desktop.divert --rename /usr/share/applications/blankon-installer.desktop
