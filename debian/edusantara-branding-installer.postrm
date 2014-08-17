@@ -1,13 +1,13 @@
 #! /bin/sh
 set -e
 
-if [ -f /usr/lib/edusantara-installer/system/index.html.divert ]; then
-  rm -f /usr/lib/edusantara-installer/system/index.html
-  dpkg-divert --local --remove --rename /usr/lib/edusantara-installer/system/index.html
+if [ -f /usr/lib/blankon-installer/system/index.html.divert ]; then
+  rm -f /usr/lib/blankon-installer/system/index.html
+  dpkg-divert --local --remove --rename /usr/lib/blankon-installer/system/index.html
 fi
-if [ -f /usr/lib/edusantara-installer/system/logo.png.divert ]; then
-  rm -f /usr/lib/edusantara-installer/system/logo.png
-  dpkg-divert --local --remove --rename /usr/lib/edusantara-installer/system/logo.png
+if [ -f /usr/lib/blankon-installer/system/logo.png.divert ]; then
+  rm -f /usr/lib/blankon-installer/system/logo.png
+  dpkg-divert --local --remove --rename /usr/lib/blankon-installer/system/logo.png
 fi
 if [ -f /usr/share/applications/blankon-installer.desktop.divert ]; then
   rm -f /usr/share/applications/blankon-installer.desktop
