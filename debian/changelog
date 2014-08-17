@@ -1,3 +1,9 @@
+edusantara-branding (0.0.2) anambas; urgency=low
+
+  * Changes: Name edusantara to BlankOn
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sat, 17 Aug 2014 23:21:40 +0700
+
 edusantara-branding (0.0.1) anambas; urgency=low
 
   * Initial Release
