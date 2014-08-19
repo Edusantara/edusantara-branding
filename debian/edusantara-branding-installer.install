@@ -3,4 +3,4 @@ installer/edusantara.png usr/lib/blankon-installer/system
 installer/logo.png usr/lib/blankon-installer/system
 installer/edusantara-installer.desktop usr/share/applications
 installer/index.html usr/lib/blankon-installer/system
-installer/edusantara-installer.mo usr/share/locale/id/LC_MESSAGES/
+installer/edusantara-installer.mo usr/share/locale/id/LC_MESSAGES
