@@ -1,3 +1,9 @@
+edusantara-branding (0.0.3) anambas; urgency=low
+
+  * Added: Branding Locale
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 20 Aug 2014 00:01:38 +0700
+
 edusantara-branding (0.0.2) anambas; urgency=low
 
   * Changes: Name edusantara to BlankOn
