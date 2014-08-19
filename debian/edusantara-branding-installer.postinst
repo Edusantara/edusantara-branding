@@ -15,6 +15,10 @@ case "$1" in
     dpkg-divert --add --local --divert /usr/share/applications/blankon-installer.desktop.divert --rename /usr/share/applications/blankon-installer.desktop
     cp -a /usr/share/applications/edusantara-installer.desktop /usr/share/applications/blankon-installer.desktop
   fi
+  if [ -f /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo ]; then
+    dpkg-divert --add --local --divert /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo.divert --rename /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
+    cp -a /usr/share/locale/id/LC_MESSAGES/edusantara-installer.mo /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
+  fi
 esac
 
 exit 0
