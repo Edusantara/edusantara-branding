@@ -1,3 +1,10 @@
+edusantara-branding (0.0.4) anambas; urgency=medium
+
+  * Fix name to edusantara-branding-blankon-installer.*
+  * Fix path installer
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 20 Aug 2014 20:25:13 +0700
+
 edusantara-branding (0.0.3) anambas; urgency=low
 
   * Added: Branding Locale
