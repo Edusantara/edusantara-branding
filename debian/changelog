@@ -1,3 +1,9 @@
+edusantara-branding (0.0.5) anambas; urgency=low
+
+  * Fix name 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 20 Aug 2014 20:53:18 +0700
+
 edusantara-branding (0.0.4) anambas; urgency=medium
 
   * Fix name to edusantara-branding-blankon-installer.*
