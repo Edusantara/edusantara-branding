@@ -11,7 +11,7 @@ Depends: ${shlibs:Depends}, blankon-installer
 Description: Rebranding BlankOn Installer
 	Rebranding BlankOn Installer to Edusantara Installer new distro
 
-ackage: edusantara-branding-gimp
+Package: edusantara-branding-gimp
 Architecture: all
 Depends: ${shlibs:Depends}, gimp
 Description: Rebranding GIMP
