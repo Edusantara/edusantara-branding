@@ -10,3 +10,21 @@ Architecture: all
 Depends: ${shlibs:Depends}, blankon-installer
 Description: Rebranding BlankOn Installer
 	Rebranding BlankOn Installer to Edusantara Installer new distro
+
+ackage: edusantara-branding-gimp
+Architecture: all
+Depends: ${shlibs:Depends}, gimp
+Description: Rebranding GIMP
+	Rebranding Gimp to Edusantara new distro
+
+Package: edusantara-branding-libreoffice
+Architecture: all
+Depends: ${shlibs:Depends}, libreoffice-core
+Description: Rebranding LibreOffice
+	Rebranding Libreoffice to Edusantara new distro
+
+Package: edusantara-branding-inkscape
+Architecture: all
+Depends: ${shlibs:Depends}, inkscape
+Description: Rebranding Inkscape
+	Rebranding Inkscape to Edusantara new distro
