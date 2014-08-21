@@ -8,3 +8,4 @@ Type=Application
 Categories=Application;System;
 StartupNotify=true
 Terminal=false
+Name[en_US]=edusantara-installer.desktop.in
