@@ -13,7 +13,7 @@ if [ -f /usr/share/applications/blankon-installer.desktop.divert ]; then
   rm -f /usr/share/applications/blankon-installer.desktop
   dpkg-divert --local --remove --rename /usr/share/applications/blankon-installer.desktop
 fi
-if [ -f /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo.divert ]; then
-  rm -f /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
-  dpkg-divert --local --remove --rename /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
-fi
+#if [ -f /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo.divert ]; then
+#  rm -f /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
+#  dpkg-divert --local --remove --rename /usr/share/locale/id/LC_MESSAGES/blankon-installer.mo
+#fi

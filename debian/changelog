@@ -1,3 +1,9 @@
+edusantara-branding (0.0.7) anambas; urgency=medium
+
+  * edusantara-branding-blankon-installler drop *.mo
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 24 Aug 2014 23:06:38 +0700
+
 edusantara-branding (0.0.6) anambas; urgency=low
 
   * Added branding :
